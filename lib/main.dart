@@ -12,18 +12,19 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Hello World',
       // Application theme data, you can set the colors for the application as
       // you want
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
       // A widget which will be started on application startup
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Mi primera aplicacion Flutter'),
     );
   }
 }
 
 class MyHomePage extends StatelessWidget {
   final String title;
-  const MyHomePage({super.key, required this.title});  
+  const MyHomePage({super.key, required this.title});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +35,7 @@ class MyHomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          'Hello, World!',
+          'Era una noche en mi cuarto tenia mucho miedo, estaba escondido debajo de la cama temblando y con mucho frio Me escondia de slenderman y asi como tiene los brazos tiene la pija!',
         ),
       ),
     );
